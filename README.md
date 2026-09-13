@@ -4,12 +4,21 @@ An end-to-end Python solution using the supplied IBM Telco Customer Churn data. 
 
 ## Setup
 
-Use Python 3.11. Open a terminal in `DS`:
+Install Git and Python 3.11, then open PowerShell. Clone the repository and enter the project directory:
+
+```powershell
+git clone https://github.com/sanjayN4497/Sanjay_Nandaniya_3213327_NAGP_DS_2026.git
+cd Sanjay_Nandaniya_3213327_NAGP_DS_2026
+```
+
+Create a virtual environment and install the dependencies:
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
+
+Run the commands below from this project directory.
 
 ## View or rerun the analysis
 
