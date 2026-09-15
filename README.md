@@ -12,7 +12,7 @@ The supplied IBM Telco dataset contains **7,043 customers and 21 columns**: 19 p
 
 ![Customer churn prediction architecture: offline training and online REST API inference](docs/architecture.png)
 
-[View full-size image](docs/architecture.png) · [Editable diagram source](docs/architecture.dot)
+[View full-size image](docs/architecture.png)
 
 Training and inference share the same serialized scikit-learn pipeline. Feature engineering is deterministic; imputation statistics and encoding categories are fitted only on the training portion of each cross-validation fold. The test set is used for final evaluation, not parameter or threshold selection. The saved model remains fitted on the 70% training set, so its reported held-out results can be reproduced. The API performs inference without retraining. Restart the API after regenerating the model so it loads the new artifact.
 
@@ -200,6 +200,8 @@ For example, setting `tenure` to `-1` returns HTTP 400:
 The endpoint is `POST /predict`; opening `/` in a browser does not invoke prediction. The application runs locally on `127.0.0.1:5000` with Flask debug mode disabled.
 
 ### Troubleshooting
+
+If Jupyter reports `FileFindHandler` has no attribute `allowed_symlink_directory`, reinstall the dependencies with `.\.venv\Scripts\python.exe -m pip install -r requirements.txt`, then stop the running notebook server with Ctrl+C and launch it again. The requirements pin Tornado to 6.5.8 to avoid the incompatibility between Tornado 6.5.9 and Jupyter Server 2.21.0. Refresh the browser after restarting.
 
 | Symptom | Resolution |
 | --- | --- |
