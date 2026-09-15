@@ -8,6 +8,10 @@ A telecommunications retention team needs to identify customers likely to leave 
 
 The supplied IBM Telco dataset contains **7,043 customers and 21 columns**: 19 predictors, `customerID`, and the target. There are 1,869 churners (26.54%) and 5,174 non-churners (73.46%). The audit finds no duplicate rows or customer IDs. Eleven blank `TotalCharges` values occur for customers with zero tenure; these are treated as missing and imputed, rather than assumed to be zero. The accompanying data dictionary explains the original fields.
 
+## Demo recording
+
+[Demo Video](https://nagarro-my.sharepoint.com/:v:/p/sanjay_nandaniya/IQDOWRjRorwASpKT-2fapiHBAU0UUuO6DkVhB3jLuYqePas?e=daRDJA)
+
 ## Architecture
 
 ![Customer churn prediction architecture: offline training and online REST API inference](docs/architecture.png)
@@ -40,10 +44,6 @@ Sanjay_Nandaniya_3213327_NAGP_DS_2026/
 ├── sample_request.json
 └── sample_response.json
 ```
-
-## Demo recording
-
-[Demo Video](TODO)
 
 ## Setup
 
