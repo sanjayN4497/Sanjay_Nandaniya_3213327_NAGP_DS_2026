@@ -29,7 +29,6 @@ Sanjay_Nandaniya_3213327_NAGP_DS_2026/
 │   └── TelcoCustomerChurn - Data Dictionary.csv
 ├── docs/
 │   ├── architecture.png
-│   └── architecture.dot
 ├── notebook/
 │   └── churn_analysis.ipynb
 ├── model/
