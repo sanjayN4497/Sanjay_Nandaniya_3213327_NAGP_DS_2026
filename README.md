@@ -43,7 +43,7 @@ Sanjay_Nandaniya_3213327_NAGP_DS_2026/
 
 ## Demo recording
 
-[Watch the demo video](https://nagarro-my.sharepoint.com/:v:/p/sanjay_nandaniya/IQAuzqqMaZTaQp2fmublJ21jATo5RM5L3xyN1BPOzQjJVGI?e=GUs5ne)
+[Demo Video](https://nagarro-my.sharepoint.com/:v:/p/sanjay_nandaniya/IQAuzqqMaZTaQp2fmublJ21jATo5RM5L3xyN1BPOzQjJVGI?e=GUs5ne)
 
 ## Setup
 
