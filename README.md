@@ -43,7 +43,7 @@ Sanjay_Nandaniya_3213327_NAGP_DS_2026/
 
 ## Demo recording
 
-**Demo recording link:** TODO — add your recording URL here if required by your submission process. The supplied four-page assignment PDF does not explicitly require a recording.
+[Watch the demo video](https://nagarro-my.sharepoint.com/:v:/p/sanjay_nandaniya/IQAuzqqMaZTaQp2fmublJ21jATo5RM5L3xyN1BPOzQjJVGI?e=GUs5ne)
 
 ## Setup
 
